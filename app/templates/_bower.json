@@ -1,0 +1,26 @@
+{
+  "name": "<%= brickname %>",
+  "version": "0.0.0",
+  "homepage": "https://github.com/<%= github %>/<%= brickname %>",
+  "authors": [
+    "mozilla"
+  ],
+  "description": "A Brick Component",
+  "main": "src/element.html",
+  "keywords": [
+    "brick",
+    "webcomponents"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "brick-common": "*",
+    "platform": "Polymer/platform"
+  }
+}
