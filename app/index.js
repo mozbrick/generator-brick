@@ -25,10 +25,14 @@ var BrickGenerator = yeoman.generators.Base.extend({
 
     var prompts = [{
       name: 'brickname',
-      message: 'How would you like to call your brick?',
+      message: 'How would you like to call your brick?'
     },{
       name: 'tagname',
-      message: 'What will be the html-tag of your brick?',
+      message: 'What will be the html-tag of your brick?'
+    },{
+      name: 'description',
+      message: 'Describe your brick.',
+      default: 'A Brick Component',
     },{
       name: 'github',
       message: 'What is your github username?',
@@ -36,7 +40,9 @@ var BrickGenerator = yeoman.generators.Base.extend({
 
     this.prompt(prompts, function (props) {
       this.brickname = props.brickname;
+      this.bricknameLowercase = props.brickname.toLowerCase();
       this.tagname = props.tagname;
+      this.description = props.description;
       this.github = props.github;
 
       done();

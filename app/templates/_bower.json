@@ -1,11 +1,11 @@
 {
-  "name": "<%= brickname %>",
+  "name": "<%= bricknameLowercase %>",
   "version": "0.0.0",
-  "homepage": "https://github.com/<%= github %>/<%= brickname %>",
+  "homepage": "https://github.com/<%= github %>/<%= bricknameLowercase %>",
   "authors": [
     "mozilla"
   ],
-  "description": "A Brick Component",
+  "description": "<%= description %>",
   "main": "src/element.html",
   "keywords": [
     "brick",

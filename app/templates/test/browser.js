@@ -28,7 +28,7 @@ window.addEventListener('WebComponentsReady', function() {
   });
 });
 
-describe("the custom <%= tagname %> element", function(){
+describe("the <%= tagname %>", function(){
 
   it("should be attached to the DOM", function(){
     expect(document.querySelector("<%= tagname %>")).not.to.be.null;

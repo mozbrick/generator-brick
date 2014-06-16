@@ -4,7 +4,7 @@
 
 ## Demo
 
-[Check it live!](http://my-user.github.io/<%= brickname %>)
+[Check it live!](http://<%= github %>.github.io/<%= bricknameLowercase %>)
 
 ## Usage
 
