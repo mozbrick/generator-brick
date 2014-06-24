@@ -42,6 +42,11 @@ var BrickGenerator = yeoman.generators.Base.extend({
       this.brickname = props.brickname;
       this.bricknameLowercase = props.brickname.toLowerCase();
       this.tagname = props.tagname;
+      this.classname = props.tagname.split('-')
+        .map(function (s) {
+          return s[0].toUpperCase() + s.substr(1);
+        })
+        .join('') + 'Element';
       this.description = props.description;
       this.github = props.github;
 

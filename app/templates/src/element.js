@@ -51,7 +51,7 @@
 
   // Register the element
 
-  window.CustomElement = document.registerElement('<%= tagname %>', {
+  window.<%= classname %> = document.registerElement('<%= tagname %>', {
     prototype: ElementPrototype
   });
 
