@@ -6,7 +6,7 @@
     "mozilla"
   ],
   "description": "<%= description %>",
-  "main": "src/element.html",
+  "main": "src/<%= tagname %>.html",
   "keywords": [
     "brick",
     "webcomponents"

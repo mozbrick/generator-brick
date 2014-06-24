@@ -2,7 +2,7 @@
   "name": "<%= bricknameLowercase %>",
   "version": "0.0.0",
   "description": "<%= description %>",
-  "main": "element.html",
+  "main": "<%= tagname %>.html",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
