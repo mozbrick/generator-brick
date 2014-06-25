@@ -1,22 +1,22 @@
 (function () {
 
-  var ElementPrototype = Object.create(HTMLElement.prototype);
+  var <%= prototypename %> = Object.create(HTMLElement.prototype);
 
   // Lifecycle methods
 
-  ElementPrototype.createdCallback = function () {
+  <%= prototypename %>.createdCallback = function () {
 
   };
 
-  ElementPrototype.attachedCallback = function () {
+  <%= prototypename %>.attachedCallback = function () {
 
   };
 
-  ElementPrototype.detachedCallback = function () {
+  <%= prototypename %>.detachedCallback = function () {
 
   };
 
-  ElementPrototype.attributeChangedCallback = function (attr, oldVal, newVal) {
+  <%= prototypename %>.attributeChangedCallback = function (attr, oldVal, newVal) {
     if (attr in attrs) {
       attrs[attr].call(this, oldVal, newVal);
     }
@@ -24,7 +24,7 @@
 
   // Custom methods
 
-  ElementPrototype.foo = function () {
+  <%= prototypename %>.foo = function () {
 
   };
 
@@ -38,7 +38,7 @@
 
   // Property handlers
 
-  Object.defineProperties(ElementPrototype, {
+  Object.defineProperties(<%= prototypename %>, {
     'prop': {
       get : function () {
 
@@ -51,8 +51,8 @@
 
   // Register the element
 
-  window.CustomElement = document.registerElement('<%= tagname %>', {
-    prototype: ElementPrototype
+  window.<%= classname %> = document.registerElement('<%= tagname %>', {
+    prototype: <%= prototypename %>
   });
 
 })();

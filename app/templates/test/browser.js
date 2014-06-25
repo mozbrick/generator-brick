@@ -11,7 +11,7 @@ before(function (done) {
 window.addEventListener('WebComponentsReady', function() {
 
   // Add the HTMLImport for the custom element.
-  document.head.innerHTML += '<link rel="import" id="el" href="/base/src/element.html">';
+  document.head.innerHTML += '<link rel="import" id="el" href="/base/src/<%= tagname %>.html">';
 
   document.querySelector('#el').addEventListener('load', function() {
 
