@@ -74,6 +74,7 @@ var BrickGenerator = yeoman.generators.Base.extend({
     this.copy('index.html', 'index.html');
 
     this.copy('readme.md', 'readme.md');
+    this.copy('_LICENSE', 'LICENSE');
 
   },
 
