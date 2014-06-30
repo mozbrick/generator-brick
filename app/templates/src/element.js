@@ -22,18 +22,18 @@
     }
   };
 
-  // Custom methods
-
-  <%= prototypename %>.foo = function () {
-
-  };
-
   // Attribute handlers
 
   var attrs = {
     'attr': function (oldVal, newVal) {
 
     }
+  };
+
+  // Custom methods
+
+  <%= prototypename %>.foo = function () {
+
   };
 
   // Property handlers
