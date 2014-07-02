@@ -1,14 +1,14 @@
 {
   "name": "generator-brick",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "dotch/generator-brick",
+  "repository": "mozbrick/generator-brick",
   "author": {
     "name": "",
     "email": "",
-    "url": "https://github.com/dotch"
+    "url": "https://github.com/mozbrick"
   },
   "engines": {
     "node": ">=0.10.0"
