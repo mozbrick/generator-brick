@@ -1,4 +1,6 @@
 /* jshint node:true */
+'use strict';
+
 var bump = require('gulp-bump');
 var concat = require('gulp-concat');
 var connect = require('gulp-connect');
@@ -14,8 +16,7 @@ var paths = {
   'stylesheets': 'src/*.styl',
   'src': 'src/*',
   'index': 'index.html',
-  'bowerComponents': 'bower_components/**/*',
-  'testfiles': ['test/*', 'bower_components/platform/platform.js']
+  'bowerComponents': 'bower_components/**/*'
 };
 
 gulp.task('lint', function() {
@@ -63,7 +64,6 @@ gulp.task('help', helptext({
   'styles': 'Compiles stylus',
   'lint': 'Runs JSHint on your code',
   'server': 'Starts the development server',
-  'test': 'Runs the tests',
   'bump': 'Bumps up the Version',
   'deploy': 'Publish to Github pages'
 }));
