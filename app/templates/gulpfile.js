@@ -14,6 +14,7 @@ var paths = {
   'main': 'src/<%= tagname %>.html',
   'scripts': 'src/*.js',
   'stylesheets': 'src/*.styl',
+  'themes': 'src/themes/*.styl',
   'src': 'src/*',
   'index': 'index.html',
   'bowerComponents': 'bower_components/**/*'
@@ -30,11 +31,13 @@ gulp.task('styles', function() {
     .pipe(stylus())
     .pipe(concat('<%= tagname %>.css'))
     .pipe(gulp.dest('src'));
+  gulp.src(paths.themes)
+    .pipe(stylus())
+    .pipe(gulp.dest('src/themes/'));
 });
 
 // build scripts and styles
 gulp.task('build', ['lint','styles']);
-
 
 gulp.task('connect', function() {
   connect.server({
@@ -42,10 +45,10 @@ gulp.task('connect', function() {
   });
 });
 
-
 gulp.task('watch', function () {
   gulp.watch(paths.scripts, ['lint']);
   gulp.watch(paths.stylesheets, ['styles']);
+  gulp.watch(paths.themes, ['styles']);
 });
 
 // do a build, start a server, watch for changes
