@@ -49,6 +49,11 @@ gulp.task('clean', ['vulcanize'], function() {
 gulp.task('vulcanize', ['styles','themes'], function() {
   return gulp.src('src/<%= tagname %>.html')
     .pipe(vulcanize({
+      excludes: {
+        imports: ['bower_components'],
+        scripts: ['bower_components'],
+        styles: ['bower_components']
+      },
       dest: 'dist',
       csp: true,
       inline: true
