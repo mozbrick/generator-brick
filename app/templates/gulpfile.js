@@ -8,7 +8,7 @@ var ghpages = require('gulp-gh-pages');
 var gulp = require('gulp');
 var helptext = require('gulp-helptext');
 var jshint = require('gulp-jshint');
-var rimraf = require('gulp-rimraf');
+var rm = require('gulp-rm');
 var stylus = require('gulp-stylus');
 var vulcanize = require('gulp-vulcanize');
 
@@ -43,7 +43,7 @@ gulp.task('themes', function() {
 
 gulp.task('clean', ['vulcanize'], function() {
   gulp.src(['src/*.css', 'src/themes/**/*.css'])
-    .pipe(rimraf());
+    .pipe(rm());
 });
 
 gulp.task('vulcanize', ['styles','themes'], function() {
