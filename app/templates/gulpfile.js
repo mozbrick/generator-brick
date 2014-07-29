@@ -72,8 +72,8 @@ gulp.task('connect', function() {
 
 gulp.task('watch', function () {
   gulp.watch(paths.scripts, ['lint']);
-  gulp.watch(paths.stylesheets, ['styles']);
-  gulp.watch(paths.themes, ['styles']);
+  gulp.watch(paths.stylesheets, ['build']);
+  gulp.watch(paths.themes, ['build']);
 });
 
 // do a build, start a server, watch for changes
