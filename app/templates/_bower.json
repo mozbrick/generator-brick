@@ -6,12 +6,12 @@
     "mozilla"
   ],
   "description": "<%= description %>",
-  "main": "src/<%= tagname %>.html",
+  "main": "dist/<%= tagname %>.html",
   "keywords": [
     "brick",
     "webcomponents"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",
