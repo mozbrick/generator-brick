@@ -58,6 +58,7 @@ var BrickGenerator = yeoman.generators.Base.extend({
   app: function () {
 
     this.mkdir('src');
+    this.copy('src/themes/default/default.styl','src/themes/default/default.styl');
     this.copy('src/element.html','src/' + this.tagname + '.html');
     this.copy('src/element.js','src/' + this.tagname + '.js');
     this.copy('src/element.styl','src/' + this.tagname + '.styl');
