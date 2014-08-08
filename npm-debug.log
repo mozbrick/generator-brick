@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.10
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/cweiss/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+13 verbose folder .
+14 info prepublish generator-brick@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/cweiss/.npm/1f1177db-tar.lock
+17 silly lockFile d377206e-49468-0-9581043508369476-tmp-tgz tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+18 verbose lock tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz /Users/cweiss/.npm/d377206e-49468-0-9581043508369476-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile d377206e-49468-0-9581043508369476-tmp-tgz tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+22 silly lockFile d377206e-49468-0-9581043508369476-tmp-tgz tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+23 verbose tar unpack /var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+24 silly lockFile 0ff35364-pm-generator-brick-0-1-0-package tar:///Users/cweiss/.npm/generator-brick/0.1.0/package
+25 verbose lock tar:///Users/cweiss/.npm/generator-brick/0.1.0/package /Users/cweiss/.npm/0ff35364-pm-generator-brick-0-1-0-package.lock
+26 silly lockFile d377206e-49468-0-9581043508369476-tmp-tgz tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+27 verbose lock tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz /Users/cweiss/.npm/d377206e-49468-0-9581043508369476-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry app/index.js
+32 silly gunzTarPerm extractEntry app/templates/gulpfile.js
+33 silly gunzTarPerm extractEntry app/templates/karma.conf.js
+34 silly gunzTarPerm extractEntry app/templates/index.html
+35 silly gunzTarPerm extractEntry app/templates/gitignore
+36 silly gunzTarPerm extractEntry app/templates/_LICENSE
+37 silly gunzTarPerm extractEntry app/templates/_bower.json
+38 silly gunzTarPerm extractEntry app/templates/jshintrc
+39 silly gunzTarPerm extractEntry app/templates/_package.json
+40 silly gunzTarPerm extractEntry app/templates/readme.md
+41 silly gunzTarPerm extractEntry app/templates/src/element.js
+42 silly gunzTarPerm extractEntry app/templates/src/element.html
+43 silly gunzTarPerm extractEntry app/templates/src/element.styl
+44 silly gunzTarPerm extractEntry app/templates/src/themes/default/default.styl
+45 silly gunzTarPerm extractEntry app/templates/test/browser.js
+46 silly lockFile 0ff35364-pm-generator-brick-0-1-0-package tar:///Users/cweiss/.npm/generator-brick/0.1.0/package
+47 silly lockFile 0ff35364-pm-generator-brick-0-1-0-package tar:///Users/cweiss/.npm/generator-brick/0.1.0/package
+48 silly lockFile d377206e-49468-0-9581043508369476-tmp-tgz tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+49 silly lockFile d377206e-49468-0-9581043508369476-tmp-tgz tar:///var/folders/cc/q146vw2d5rd2yv80vp6x23440000gn/T/npm-70543-TQXcHE4O/1407460549468-0.9581043508369476/tmp.tgz
+50 silly lockFile 3a52ce78- .
+51 silly lockFile 3a52ce78- .
+52 silly publish { name: 'generator-brick',
+52 silly publish   version: '0.1.0',
+52 silly publish   description: 'Yeoman generator',
+52 silly publish   license: 'MIT',
+52 silly publish   main: 'app/index.js',
+52 silly publish   repository:
+52 silly publish    { type: 'git',
+52 silly publish      url: 'git://github.com/mozbrick/generator-brick' },
+52 silly publish   author: { url: 'https://github.com/mozbrick' },
+52 silly publish   engines: { node: '>=0.10.0' },
+52 silly publish   scripts: { test: 'mocha' },
+52 silly publish   files: [ 'app' ],
+52 silly publish   keywords: [ 'yeoman-generator' ],
+52 silly publish   dependencies:
+52 silly publish    { 'yeoman-generator': '~0.16.0',
+52 silly publish      chalk: '~0.4.0',
+52 silly publish      yosay: '^0.1.0' },
+52 silly publish   devDependencies: { mocha: '*' },
+52 silly publish   peerDependencies: { yo: '>=1.0.0' },
+52 silly publish   readme: '# generator-brick \n\nA [Yeoman](https://github.com/yeoman/yeoman)-Generator for [Brick](https://github.com/mozbrick/brick/) custom elements.\n\n```bash\n$ npm install -g yo generator-brick\n$ yo brick\n```\n\n',
+52 silly publish   readmeFilename: 'README.md',
+52 silly publish   bugs: { url: 'https://github.com/mozbrick/generator-brick/issues' },
+52 silly publish   homepage: 'https://github.com/mozbrick/generator-brick',
+52 silly publish   _id: 'generator-brick@0.1.0',
+52 silly publish   _shasum: 'fbf075cc0ffd95eb548dc2e0751376b990eae940',
+52 silly publish   _from: '.' }
+53 verbose url raw generator-brick
+54 verbose url resolving [ 'https://registry.npmjs.org/', './generator-brick' ]
+55 verbose url resolved https://registry.npmjs.org/generator-brick
+56 info trying registry request attempt 1 at 18:15:49
+57 http PUT https://registry.npmjs.org/generator-brick
+58 http 403 https://registry.npmjs.org/generator-brick
+59 verbose headers { date: 'Fri, 08 Aug 2014 01:15:50 GMT',
+59 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+59 verbose headers   'content-type': 'application/json',
+59 verbose headers   'cache-control': 'max-age=60',
+59 verbose headers   'content-length': '2746',
+59 verbose headers   'accept-ranges': 'bytes',
+59 verbose headers   via: '1.1 varnish',
+59 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+59 verbose headers   'x-cache': 'MISS',
+59 verbose headers   'x-cache-hits': '0',
+59 verbose headers   'x-timer': 'S1407460550.853549,VS0,VE133',
+59 verbose headers   'keep-alive': 'timeout=10, max=50',
+59 verbose headers   connection: 'Keep-Alive' }
+60 error publish Failed PUT 403
+61 error Error: forbidden cannot modify pre-existing version: 0.1.0
+61 error old={"name":"generator-brick","version":"0.1.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/mozbrick/generator-brick"},"author":{"url":"https://github.com/mozbrick"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/mozbrick/generator-brick/issues"},"homepage":"https://github.com/mozbrick/generator-brick","_id":"generator-brick@0.1.0","_shasum":"8cb875efda4ec453f1022cbfae67e71b2ae6f769","_from":".","_npmVersion":"1.4.10","_npmUser":{"name":"dotch","email":"christian.x.weiss@gmail.com"},"maintainers":[{"name":"dotch","email":"christian.x.weiss@gmail.com"},{"name":"potch","email":"me@potch.me"}],"dist":{"shasum":"8cb875efda4ec453f1022cbfae67e71b2ae6f769","tarball":"http://registry.npmjs.org/generator-brick/-/generator-brick-0.1.0.tgz"}}
+61 error new={"name":"generator-brick","version":"0.1.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/mozbrick/generator-brick"},"author":{"url":"https://github.com/mozbrick"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-brick \u000a\u000aA [Yeoman](https://github.com/yeoman/yeoman)-Generator for [Brick](https://github.com/mozbrick/brick/) custom elements.\u000a\u000a```bash\u000a$ npm install -g yo generator-brick\u000a$ yo brick\u000a```\u000a\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/mozbrick/generator-brick/issues"},"homepage":"https://github.com/mozbrick/generator-brick","_id":"generator-brick@0.1.0","_shasum":"fbf075cc0ffd95eb548dc2e0751376b990eae940","_from":".","_npmVersion":"1.4.10","_npmUser":{"name":"dotch","email":"christian.x.weiss@gmail.com"},"maintainers":[{"name":"dotch","email":"christian.x.weiss@gmail.com"}],"dist":{"shasum":"fbf075cc0ffd95eb548dc2e0751376b990eae940","tarball":"http://registry.npmjs.org/generator-brick/-/generator-brick-0.1.0.tgz"}}: generator-brick
+61 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+61 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+61 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+61 error     at Request.EventEmitter.emit (events.js:98:17)
+61 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+61 error     at Request.EventEmitter.emit (events.js:117:20)
+61 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+61 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+61 error     at _stream_readable.js:919:16
+61 error     at process._tickCallback (node.js:419:13)
+62 error If you need help, you may report this *entire* log,
+62 error including the npm and node versions, at:
+62 error     <http://github.com/npm/npm/issues>
+63 error System Darwin 13.3.0
+64 error command "node" "/usr/local/bin/npm" "publish"
+65 error cwd /Users/cweiss/Projects/vanilla/generator-brick
+66 error node -v v0.10.28
+67 error npm -v 1.4.10
+68 verbose exit [ 1, true ]
