@@ -22,7 +22,7 @@
 
     // import template
     var importDoc = currentScript.ownerDocument;
-    var templateContent = importDoc.querySelector('template').content;
+    var templateContent = importDoc.querySelector('<%= tagname %>-template').content;
 
     // fix styling for polyfill
     shimShadowStyles(templateContent.querySelectorAll('style'),'<%= tagname %>');
@@ -75,9 +75,10 @@
   });
 
   // Register the element
-
-  window.<%= classname %> = document.registerElement('<%= tagname %>', {
-    prototype: <%= prototypename %>
-  });
+  if (!window.<%= classname %>) {
+    window.<%= classname %> = document.registerElement('<%= tagname %>', {
+      prototype: <%= prototypename %>
+    });
+  }
 
 })();
