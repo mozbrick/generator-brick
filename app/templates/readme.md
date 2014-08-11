@@ -17,7 +17,7 @@
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="src/<%= brickname %>.html">
+    <link rel="import" href="dist/<%= brickname %>.html">
     ```
 
 3. Start using it:
